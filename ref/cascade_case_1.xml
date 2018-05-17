@@ -1,0 +1,126 @@
+<simulation>
+
+    <schematype>flat</schematype>
+    <control>
+        <duration>180</duration>
+        <startmonth>1</startmonth>
+        <startyear>2000</startyear>
+        <explicit_inventory>true</explicit_inventory>
+        <simhandle>test</simhandle>
+    </control>
+
+    <archetypes>
+        <spec> <lib>cycamore</lib> <name>DeployInst</name></spec>
+        <spec> <lib>cycamore</lib><name>Source</name> </spec>
+        <spec> <lib>cycamore</lib><name>Sink</name> </spec>
+        <spec> <lib>cycamore</lib><name>Storage</name> </spec>
+        <spec> <lib>mbmore</lib><name>CascadeEnrich</name> </spec>
+    </archetypes>
+
+    <prototype>
+        <name>nu_src</name>
+        <config>
+            <Source>
+                <outcommod>c_nat_u</outcommod>
+                <outrecipe>r_nat_u</outrecipe>
+            </Source>
+        </config>
+    </prototype>
+
+
+    <prototype>
+        <name>waste</name>
+        <config>
+            <Sink>
+                <in_commods>
+                    <val>c_depleted_u</val>
+                </in_commods>
+            </Sink>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>cascade</name>
+        <config>
+            <CascadeEnrich>
+                <feed_commod>c_nat_u</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>1500</max_feed_inventory>
+
+                <design_product_assay>0.9</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>5060</max_centrifuges>
+
+                <fix_ab>1</fix_ab>
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+
+    <recipe>
+        <name>r_nat_u</name>
+        <basis>atom</basis>
+        <nuclide> <id>922350000</id> <comp>0.0071</comp> </nuclide>
+        <nuclide> <id>922380000</id> <comp>0.9929</comp> </nuclide>
+    </recipe>
+
+    <prototype>
+        <name>storage</name>
+        <config>
+            <Storage>
+                <in_commods>
+                    <val>c_enrich_u</val>
+                </in_commods>
+                <out_commods>
+                    <val>c_enrich_u_str</val>
+                </out_commods>
+                <residence_time>0</residence_time>
+            </Storage>
+        </config>
+    </prototype>
+
+    <prototype>
+        <name>main_deployer</name>
+        <config>
+            <DeployInst>
+                <prototypes>
+                    <val>nu_src</val>
+
+                    <val>cascade</val>
+
+                    <val>storage</val>
+                    <val>waste</val>
+                </prototypes>
+
+                <build_times>
+                    <val>1</val>
+
+                    <val>1</val>
+
+                    <val>1</val>
+                    <val>1</val>
+                </build_times>
+
+                <n_build>
+                    <val>1</val>
+
+                    <val>1</val>
+
+                    <val>1</val>
+                    <val>1</val>
+                </n_build>
+            </DeployInst>
+        </config>
+    </prototype>
+
+
+    <agent> <name>deployer_1</name> <prototype>main_deployer</prototype> </agent>
+</simulation>

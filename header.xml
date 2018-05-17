@@ -1,0 +1,18 @@
+<header>
+    <schematype>flat</schematype>
+    <control>
+        <duration>180</duration>
+        <startmonth>1</startmonth>
+        <startyear>2000</startyear>
+        <explicit_inventory>true</explicit_inventory>
+    </control>
+
+    <archetypes>
+        <spec> <lib>cycamore</lib> <name>DeployInst</name></spec>
+        <spec> <lib>cycamore</lib><name>Source</name> </spec>
+        <spec> <lib>cycamore</lib><name>Sink</name> </spec>
+        <spec> <lib>cycamore</lib><name>Storage</name> </spec>
+        <spec> <lib>mbmore</lib><name>CascadeEnrich</name> </spec>
+    </archetypes>
+
+</header>

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+for file in `ls *case*_2_1*S2.xml`;
+do
+    name=`echo "${file%%.*}.sqlite"`
+    rm $name; cyclus $file -o $name -v2
+done
