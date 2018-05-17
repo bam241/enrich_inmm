@@ -55,7 +55,6 @@
                 <design_feed_flow>1000</design_feed_flow>
                 <max_centrifuges>5060</max_centrifuges>
 
-                <fix_ab>1</fix_ab>
                 <centrifuge_velocity>320</centrifuge_velocity>
                 <height>1.8</height>
                 <diameter>0.105</diameter>
