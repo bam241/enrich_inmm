@@ -1,7 +1,7 @@
 <simulation xml:base="/Users/mouginot/work/enrich_inmm/"
   xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <xi:include href="header.xml" xpointer="xpointer(//header/*)" />
+    <xi:include href="header/header.xml" xpointer="xpointer(//header/*)" />
 
 
     <xi:include href="case_2/cascade_configuration/cascade_recy.xml" xpointer="xpointer(//cascade_config/*)" />
