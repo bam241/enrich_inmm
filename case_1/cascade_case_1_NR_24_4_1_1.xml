@@ -1,0 +1,16 @@
+<simulation xml:base="/Users/mouginot/work/cyclus_jcpoa/"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="header.xml" xpointer="xpointer(//header/*)" />
+
+
+    <xi:include href="case_1_/cascade_configuration/cascade_no_recy.xml" xpointer="xpointer(//cascade_config/*)" />
+    
+    
+    <xi:include href="commum.xml" xpointer="xpointer(//commum/*)" />
+
+
+    <xi:include href="deployer/stages_24_4_1_1.xml" xpointer="xpointer(//deployer/*)" />
+
+    <agent> <name>deployer_1</name> <prototype>main_deployer</prototype> </agent>
+</simulation>
