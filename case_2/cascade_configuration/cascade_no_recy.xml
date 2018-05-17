@@ -1,4 +1,4 @@
-<cascade_case2>
+<cascade_config>
 
     <prototype>
         <name>cascade_0</name>
@@ -17,7 +17,7 @@
                 <design_feed_flow>1000</design_feed_flow>
                 <max_centrifuges>169</max_centrifuges>
 
-                <fix_ab>0</fix_ab>
+                <miss_use_model>1</miss_use_model>
                 <centrifuge_velocity>320</centrifuge_velocity>
                 <height>1.8</height>
                 <diameter>0.105</diameter>
@@ -43,7 +43,7 @@
                 <design_feed_flow>1000</design_feed_flow>
                 <max_centrifuges>169</max_centrifuges>
 
-                <fix_ab>0</fix_ab>
+                <miss_use_model>1</miss_use_model>
                 <centrifuge_velocity>320</centrifuge_velocity>
                 <height>1.8</height>
                 <diameter>0.105</diameter>
@@ -70,7 +70,7 @@
                 <max_centrifuges>169</max_centrifuges>
 
 
-                <fix_ab>0</fix_ab>
+                <miss_use_model>1</miss_use_model>
                 <centrifuge_velocity>320</centrifuge_velocity>
                 <height>1.8</height>
                 <diameter>0.105</diameter>
@@ -97,7 +97,7 @@
                 <max_centrifuges>169</max_centrifuges>
 
 
-                <fix_ab>0</fix_ab>
+                <miss_use_model>1</miss_use_model>
                 <centrifuge_velocity>320</centrifuge_velocity>
                 <height>1.8</height>
                 <diameter>0.105</diameter>
@@ -124,7 +124,7 @@
                 <max_centrifuges>169</max_centrifuges>
 
 
-                <fix_ab>0</fix_ab>
+                <miss_use_model>1</miss_use_model>
                 <centrifuge_velocity>320</centrifuge_velocity>
                 <height>1.8</height>
                 <diameter>0.105</diameter>
@@ -160,4 +160,4 @@
         </config>
     </prototype>
 
-</cascade_case2>
+</cascade_config>
