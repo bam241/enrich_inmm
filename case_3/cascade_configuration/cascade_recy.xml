@@ -4,7 +4,6 @@
         <name>cascade_0</name>
         <config>
             <CascadeEnrich>
-                <order_prefs>2</order_prefs>
                 <feed_commod>c_nat_u</feed_commod>
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_0</product_commod>
@@ -30,7 +29,6 @@
         <name>cascade_1</name>
         <config>
             <CascadeEnrich>
-                <order_prefs>2</order_prefs>
                 <feed_commod>c_enrich_u_0_str</feed_commod>
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_1</product_commod>
@@ -56,7 +54,6 @@
         <name>cascade_2</name>
         <config>
             <CascadeEnrich>
-                <order_prefs>2</order_prefs>
                 <feed_commod>c_enrich_u_1_str</feed_commod>
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_2</product_commod>
@@ -83,7 +80,6 @@
         <name>cascade_3</name>
         <config>
             <CascadeEnrich>
-                <order_prefs>2</order_prefs>
                 <feed_commod>c_enrich_u_2_str</feed_commod>
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_3</product_commod>
@@ -110,7 +106,6 @@
         <name>cascade_4</name>
         <config>
             <CascadeEnrich>
-                <order_prefs>2</order_prefs>
                 <feed_commod>c_enrich_u_3_str</feed_commod>
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_4</product_commod>
@@ -137,7 +132,6 @@
         <name>cascade_5</name>
         <config>
             <CascadeEnrich>
-                <order_prefs>2</order_prefs>
                 <feed_commod>c_enrich_u_4_str</feed_commod>
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_5</product_commod>
