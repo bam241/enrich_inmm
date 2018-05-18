@@ -4,7 +4,7 @@
     <xi:include href="header/header.xml" xpointer="xpointer(//header/*)" />
 
 
-    <xi:include href="case_2/cascade_configuration/cascade_recy.xml" xpointer="xpointer(//cascade_config/*)" />
+    <xi:include href="case_3/cascade_configuration/cascade_recy.xml" xpointer="xpointer(//cascade_config/*)" />
     
     
     <xi:include href="commum.xml" xpointer="xpointer(//commum/*)" />
