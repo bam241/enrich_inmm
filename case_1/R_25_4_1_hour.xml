@@ -1,0 +1,16 @@
+<simulation xml:base="/Users/mouginot/work/enrich_inmm/"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="header/hour.xml" xpointer="xpointer(//header/*)" />
+
+
+    <xi:include href="case_1/cascade_configuration/cascade_recy_hour.xml" xpointer="xpointer(//cascade_config/*)" />
+    
+    
+    <xi:include href="commum.xml" xpointer="xpointer(//commum/*)" />
+
+
+    <xi:include href="deployer/stages_25_4_1.xml" xpointer="xpointer(//deployer/*)" />
+
+    <agent> <name>deployer_1</name> <prototype>main_deployer</prototype> </agent>
+</simulation>

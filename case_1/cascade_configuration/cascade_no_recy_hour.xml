@@ -1,0 +1,158 @@
+<cascade_config>
+
+    <prototype>
+        <name>cascade_0</name>
+        <config>
+            <CascadeEnrich>
+                <order_prefs>1</order_prefs>
+                <feed_commod>c_nat_u</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u_0</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>0.13</max_feed_inventory>
+
+                <design_product_assay>0.035</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>169</max_centrifuges>
+
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13.5</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+    <prototype>
+        <name>cascade_1</name>
+        <config>
+            <CascadeEnrich>
+                <order_prefs>1</order_prefs>
+                <feed_commod>c_enrich_u_0_str</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u_1</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>0.13</max_feed_inventory>
+
+                <design_product_assay>0.035</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>169</max_centrifuges>
+
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13.5</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+    <prototype>
+        <name>cascade_2</name>
+        <config>
+            <CascadeEnrich>
+                <order_prefs>1</order_prefs>
+                <feed_commod>c_enrich_u_1_str</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u_2</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>0.13</max_feed_inventory>
+
+                <design_product_assay>0.035</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>169</max_centrifuges>
+
+
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13.5</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+    <prototype>
+        <name>cascade_3</name>
+        <config>
+            <CascadeEnrich>
+                <order_prefs>1</order_prefs>
+                <feed_commod>c_enrich_u_2_str</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u_3</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>0.13</max_feed_inventory>
+
+                <design_product_assay>0.035</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>169</max_centrifuges>
+
+
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13.5</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+    <prototype>
+        <name>cascade_4</name>
+        <config>
+            <CascadeEnrich>
+                <order_prefs>1</order_prefs>
+                <feed_commod>c_enrich_u_3_str</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u_4</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>0.13</max_feed_inventory>
+
+                <design_product_assay>0.035</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>169</max_centrifuges>
+
+
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13.5</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+    <prototype>
+        <name>cascade_5</name>
+        <config>
+            <CascadeEnrich>
+                <order_prefs>1</order_prefs>
+                <feed_commod>c_enrich_u_4_str</feed_commod>
+                <feed_recipe>r_nat_u</feed_recipe>
+                <product_commod>c_enrich_u_5</product_commod>
+                <tails_commod>c_depleted_u</tails_commod>
+                <max_feed_inventory>0.13</max_feed_inventory>
+
+                <design_product_assay>0.035</design_product_assay>
+                <design_tails_assay>0.003</design_tails_assay>
+                <design_feed_assay>0.0071</design_feed_assay>
+                <design_feed_flow>1000</design_feed_flow>
+                <max_centrifuges>169</max_centrifuges>
+
+
+                <centrifuge_velocity>320</centrifuge_velocity>
+                <height>1.8</height>
+                <diameter>0.105</diameter>
+                <machine_feed>13.5</machine_feed>
+                <L_over_F>2</L_over_F>
+            </CascadeEnrich>
+        </config>
+    </prototype>
+
+</cascade_config>
