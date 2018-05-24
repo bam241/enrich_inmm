@@ -1,7 +1,7 @@
 <header>
     <schematype>flat</schematype>
     <control>
-        <duration>1800</duration>
+        <duration>180</duration>
         <startmonth>1</startmonth>
         <startyear>2000</startyear>
         <explicit_inventory>true</explicit_inventory>
