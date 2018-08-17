@@ -47,7 +47,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>1850</max_feed_inventory>
+                <max_feed_inventory>6500</max_feed_inventory>
 
                 <design_product_assay>0.9</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>

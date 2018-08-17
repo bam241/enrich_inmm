@@ -8,7 +8,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_0</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>90</max_feed_inventory>
+                <max_feed_inventory>300</max_feed_inventory>
 
                 <design_product_assay>0.035</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>
@@ -33,7 +33,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_1</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>90</max_feed_inventory>
+                <max_feed_inventory>300</max_feed_inventory>
 
                 <design_product_assay>0.035</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>
@@ -58,7 +58,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_2</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>90</max_feed_inventory>
+                <max_feed_inventory>300</max_feed_inventory>
 
                 <design_product_assay>0.035</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>
@@ -84,7 +84,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_3</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>90</max_feed_inventory>
+                <max_feed_inventory>300</max_feed_inventory>
 
                 <design_product_assay>0.035</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>
@@ -110,7 +110,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_4</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>90</max_feed_inventory>
+                <max_feed_inventory>300</max_feed_inventory>
 
                 <design_product_assay>0.035</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>
@@ -136,7 +136,7 @@
                 <feed_recipe>r_nat_u</feed_recipe>
                 <product_commod>c_enrich_u_5</product_commod>
                 <tails_commod>c_depleted_u</tails_commod>
-                <max_feed_inventory>90</max_feed_inventory>
+                <max_feed_inventory>300</max_feed_inventory>
 
                 <design_product_assay>0.035</design_product_assay>
                 <design_tails_assay>0.003</design_tails_assay>
